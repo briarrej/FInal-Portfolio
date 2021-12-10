@@ -675,7 +675,7 @@ nav .current {
        
 
     .flip-card1 {
-  background-color: transparent;
+  /* background-color: transparent; */
   width: 300px;
   height: 200px;
   border: 1px solid #f1f1f1;
@@ -709,14 +709,13 @@ nav .current {
 }
 
 /* Style the front side (fallback if image is missing) */
-.flip-card-front1 {
-  background-color: #bbb;
-  color: black;
-}
+/* .flip-card-front1 {
+  /* background-color: #bbb; */
+  /* color: black;} */
 
 /* Style the back side */
 .flip-card-back1 {
-  background-color: dodgerblue;
+  background-color: #000079;
   color: white;
   transform: rotateY(180deg);
 }
